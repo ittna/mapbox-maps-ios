@@ -29,15 +29,12 @@ final class ViewAnnotationBasicExample: UIViewController, ExampleProtocol {
     }
 
     private func addViewAnnotation(at coordinate: CLLocationCoordinate2D) {
-        let annotationView = AnnotationView(frame: CGRect(x: 0, y: 0, width: 100, height: 80))
-        annotationView.title = String(format: "lat=%.2f\nlon=%.2f", coordinate.latitude, coordinate.longitude)
+        let annotationView = AnimatedAnnotationView(frame: CGRect(origin: .zero, size: AnimatedAnnotationView.size))
         let annotation = ViewAnnotation(coordinate: coordinate, view: annotationView)
         annotation.allowOverlap = true
-        annotationView.onClose = { [weak annotation] in annotation?.remove() }
-        annotationView.onSelect = { [weak annotation] selected in
-            annotation?.selected = selected
-            annotation?.setNeedsUpdateSize()
-        }
+        annotation.variableAnchors = [
+            ViewAnnotationAnchorConfig(anchor: .center, offsetY: AnimatedAnnotationView.size.height / 4)
+        ]
         mapView.viewAnnotations.add(annotation)
     }
 }

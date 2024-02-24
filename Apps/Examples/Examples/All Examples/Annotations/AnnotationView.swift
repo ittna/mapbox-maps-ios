@@ -10,7 +10,6 @@ final class AnnotationView: UIView {
     var selected: Bool = false {
         didSet {
             selectButton.setTitle(selected ? "Deselect" : "Select", for: .normal)
-            vStack.spacing = selected ? 20 : 4
             onSelect?(selected)
         }
     }
@@ -34,6 +33,7 @@ final class AnnotationView: UIView {
     }()
     lazy var selectButton: UIButton = {
         let button = UIButton(type: .system)
+        button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = #colorLiteral(red: 0, green: 0.4784313725, blue: 0.9882352941, alpha: 1)
         button.layer.cornerRadius = 8
@@ -41,10 +41,8 @@ final class AnnotationView: UIView {
         button.setTitle("Select", for: .normal)
         return button
     }()
-    private let vStack: UIStackView
 
     override init(frame: CGRect) {
-        vStack = UIStackView()
         super.init(frame: frame)
         backgroundColor = .white
         layer.shadowOpacity = 0.25
@@ -52,21 +50,30 @@ final class AnnotationView: UIView {
         layer.shadowOffset = CGSize(width: 0, height: 2)
         layer.cornerRadius = 8
 
-
         let hStack = UIStackView(arrangedSubviews: [centerLabel, closeButton])
+        hStack.translatesAutoresizingMaskIntoConstraints = false
         hStack.spacing = 4
 
-        vStack.addArrangedSubview(hStack)
-        vStack.addArrangedSubview(selectButton)
-        vStack.axis = .vertical
-        vStack.translatesAutoresizingMaskIntoConstraints = false
-        vStack.spacing = 4
-        addSubview(vStack)
+        addSubview(hStack)
+        addSubview(selectButton)
+        
+        let vGuide = UILayoutGuide()
+        addLayoutGuide(vGuide)
+        
         NSLayoutConstraint.activate([
-            vStack.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 4),
-            vStack.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -4),
-            vStack.topAnchor.constraint(equalTo: topAnchor, constant: 4),
-            vStack.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -4),
+            vGuide.leadingAnchor.constraint(equalTo: leadingAnchor),
+            vGuide.trailingAnchor.constraint(equalTo: trailingAnchor),
+            vGuide.topAnchor.constraint(equalTo: topAnchor),
+            vGuide.bottomAnchor.constraint(equalTo: bottomAnchor),
+            
+            hStack.centerXAnchor.constraint(equalTo: vGuide.centerXAnchor),
+            hStack.widthAnchor.constraint(equalTo: vGuide.widthAnchor),
+            hStack.topAnchor.constraint(equalTo: vGuide.topAnchor),
+            
+            selectButton.centerXAnchor.constraint(equalTo: vGuide.centerXAnchor),
+            selectButton.widthAnchor.constraint(lessThanOrEqualTo: vGuide.widthAnchor),
+            selectButton.topAnchor.constraint(equalTo: hStack.bottomAnchor),
+            selectButton.bottomAnchor.constraint(equalTo: vGuide.bottomAnchor),
         ])
 
         closeButton.addTarget(self, action: #selector(closePressed(sender:)), for: .touchUpInside)

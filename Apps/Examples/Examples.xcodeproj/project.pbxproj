@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,7 +32,6 @@
 		2C03342240D5487880316518 /* AddOneMarkerSymbolExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCBE814694CF08A9C2E4A42 /* AddOneMarkerSymbolExample.swift */; };
 		30589E5AB307FC934E466332 /* radar2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D8730F8FB259A4F889609108 /* radar2.gif */; };
 		32FA2A4133B0464494212B34 /* Array+Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB15B17EDE597D37CFF3FCA /* Array+Split.swift */; };
-		373BD1EE35B76E43534E23F6 /* Fingertips in Frameworks */ = {isa = PBXBuildFile; productRef = FD9311FF1C736B80A26F4258 /* Fingertips */; };
 		38AD95B6DD9BE858F4E59C31 /* WeatherAnnotationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21963A6FF5DA26A210DA5 /* WeatherAnnotationExample.swift */; };
 		38DF3926AD9DDDE883454F64 /* TestableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB74046A2FC03770B62B9E6 /* TestableExampleTests.swift */; };
 		392857DBD1231B0438144335 /* AnimatedMarkerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C0F343A1B5F4DA0C19B9C /* AnimatedMarkerExample.swift */; };
@@ -60,6 +59,8 @@
 		5FF3E34B523C39A404154BF7 /* OfflineRegionManagerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1229327C13654C370B5641FC /* OfflineRegionManagerExample.swift */; };
 		60A1572CCF5763FA3C946B89 /* Custom2DPuckExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AD875661BAB5564084A9E /* Custom2DPuckExample.swift */; };
 		61B79A9069DCE6865E43E261 /* radar4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 876CE24F4E565ED342DDDCD6 /* radar4.gif */; };
+		625FFF502B89E22E00413FFB /* Fingertips in Frameworks */ = {isa = PBXBuildFile; productRef = 625FFF4F2B89E22E00413FFB /* Fingertips */; };
+		625FFF522B89FA0B00413FFB /* AnimatedAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625FFF512B89FA0B00413FFB /* AnimatedAnnotationView.swift */; };
 		634BA74F4E553C53EE906F5A /* OfflineManagerExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000D0E4CEFB6D5AF02518807 /* OfflineManagerExample.storyboard */; };
 		64F4FA139388DB34564AD42D /* CLLocationCoordinate2D+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C0B9F01316D0FF38ED62B /* CLLocationCoordinate2D+Random.swift */; };
 		655105BD0FAFF4C4BA65DC32 /* ExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE19F00E87B31FDE5481D56 /* ExamplesTests.swift */; };
@@ -80,8 +81,6 @@
 		854CE1A84AADF6FBB232CB5F /* FeaturesQueryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B06A1D70F479D8DC5C375A /* FeaturesQueryExample.swift */; };
 		85AA0D942D4C0E218D87F7D8 /* GradientLine.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2DD8B1D25297B7433F4AAF35 /* GradientLine.geojson */; };
 		85E0F727CBB3374D3EF499C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FDF5B3329BFD6E6C346D80 /* LaunchScreen.storyboard */; };
-		872C30A67CEE69B8501337F6 /* PuckPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D53EC2D5B982E6FF123C5 /* PuckPlayground.swift */; };
-		86AED5DD9F8C8BB2C9736483 /* ResizeMapViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E54D3F5943238258AA0A9BE /* ResizeMapViewExample.swift */; };
 		8913C410B72BE0C40EE02BB9 /* MapSettingsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E875420B5C674C8CCAB9B1 /* MapSettingsExample.swift */; };
 		8B4085733CCABE3BE3D16F7E /* LayerPositionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99610E884967673F7F28D2B2 /* LayerPositionExample.swift */; };
 		8F0BEA796867B64E48A1B328 /* StandardStyleLocationsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6F1212BB2453DBFECE12F2 /* StandardStyleLocationsExample.swift */; };
@@ -157,7 +156,7 @@
 
 /* Begin PBXFileReference section */
 		000D0E4CEFB6D5AF02518807 /* OfflineManagerExample.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OfflineManagerExample.storyboard; sourceTree = "<group>"; };
-		02DA2CC04980F807255D646B /* Fire_Hydrants.geojson */ = {isa = PBXFileReference; path = Fire_Hydrants.geojson; sourceTree = "<group>"; };
+		02DA2CC04980F807255D646B /* Fire_Hydrants.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fire_Hydrants.geojson; sourceTree = "<group>"; };
 		06955521CCC52B47AAB475F4 /* CustomLayerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayerExample.swift; sourceTree = "<group>"; };
 		083C452C7342E73F6F16A83C /* OfflineManagerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineManagerExample.swift; sourceTree = "<group>"; };
 		0A5C0A3C44715B96D646ACB7 /* PitchAndDistanceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchAndDistanceExample.swift; sourceTree = "<group>"; };
@@ -180,7 +179,7 @@
 		28CE7DA39D29A8311E4A58A4 /* 34M_17.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = 34M_17.dae; sourceTree = "<group>"; };
 		2C957F9CA07061B793C2DD4A /* Custom3DPuckExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom3DPuckExample.swift; sourceTree = "<group>"; };
 		2D91A8B64951711546335530 /* VoiceOverAccessibilityExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverAccessibilityExample.swift; sourceTree = "<group>"; };
-		2DD8B1D25297B7433F4AAF35 /* GradientLine.geojson */ = {isa = PBXFileReference; path = GradientLine.geojson; sourceTree = "<group>"; };
+		2DD8B1D25297B7433F4AAF35 /* GradientLine.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = GradientLine.geojson; sourceTree = "<group>"; };
 		2F6B4718F05FB1E6736EA1FF /* CustomRasterSourceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRasterSourceExample.swift; sourceTree = "<group>"; };
 		3333EF3E0F1C789809F385AF /* DynamicViewAnnotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicViewAnnotationExample.swift; sourceTree = "<group>"; };
 		33E5647315A2357320BCF575 /* ViewAnnotationAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnnotationAnimationExample.swift; sourceTree = "<group>"; };
@@ -194,7 +193,7 @@
 		3F6F479FB7FFD90FA95F400E /* IconSizeChangeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSizeChangeExample.swift; sourceTree = "<group>"; };
 		3FB717239BBFE5103C1EB1A4 /* AdvancedViewportGesturesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedViewportGesturesExample.swift; sourceTree = "<group>"; };
 		3FC5980DD30479F30127BA71 /* NavigationSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSimulator.swift; sourceTree = "<group>"; };
-		450C8D5E4B84428FE51BCA97 /* route.geojson */ = {isa = PBXFileReference; path = route.geojson; sourceTree = "<group>"; };
+		450C8D5E4B84428FE51BCA97 /* route.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = route.geojson; sourceTree = "<group>"; };
 		455C0B9F01316D0FF38ED62B /* CLLocationCoordinate2D+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Random.swift"; sourceTree = "<group>"; };
 		46CE3D9C2873C0767DD76D85 /* ClusteringExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusteringExample.swift; sourceTree = "<group>"; };
 		4D5DB9BD5E97D3C0080EC5D3 /* CustomPointAnnotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotationExample.swift; sourceTree = "<group>"; };
@@ -211,6 +210,7 @@
 		60A8CD8A69D3429FCF8ACBDD /* Lights3DExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lights3DExample.swift; sourceTree = "<group>"; };
 		61A7965C46F2F371AA940A99 /* AnimateLayerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateLayerExample.swift; sourceTree = "<group>"; };
 		6239A5CDA61892902765B843 /* FeaturesAtPointExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesAtPointExample.swift; sourceTree = "<group>"; };
+		625FFF512B89FA0B00413FFB /* AnimatedAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedAnnotationView.swift; sourceTree = "<group>"; };
 		62DA0608D44DEF6C4A82777C /* LocateMeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateMeExample.swift; sourceTree = "<group>"; };
 		640198169EEDFC7CBEFCFCCF /* StandardStyleImportExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardStyleImportExample.swift; sourceTree = "<group>"; };
 		67FA937DC17F7EA27931763A /* RasterTileSourceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RasterTileSourceExample.swift; sourceTree = "<group>"; };
@@ -260,7 +260,7 @@
 		B7A7586D05B960928AB17A0D /* MultipleGeometriesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleGeometriesExample.swift; sourceTree = "<group>"; };
 		BE18E37A8652B4807D2459F1 /* ExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesUITests.swift; sourceTree = "<group>"; };
 		C0CC67084BA1191D0B179A94 /* PuckPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuckPlayground.swift; sourceTree = "<group>"; };
-		C47942F80A50166AC823012B /* sportcar.glb */ = {isa = PBXFileReference; path = sportcar.glb; sourceTree = "<group>"; };
+		C47942F80A50166AC823012B /* sportcar.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = sportcar.glb; sourceTree = "<group>"; };
 		CB726A94B069761528B57EC8 /* ViewAnnotationWithPointAnnotationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnnotationWithPointAnnotationExample.swift; sourceTree = "<group>"; };
 		CDABBED8502001D17EF30F35 /* CameraAnimatorsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAnimatorsExample.swift; sourceTree = "<group>"; };
 		CFF80A86D7DEF54E0A7256DF /* BuildingExtrusionsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingExtrusionsExample.swift; sourceTree = "<group>"; };
@@ -283,12 +283,12 @@
 		E6E875420B5C674C8CCAB9B1 /* MapSettingsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSettingsExample.swift; sourceTree = "<group>"; };
 		EC1155178B21E2E8075454A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F000C4D3B6FC70FA9607E3A3 /* UIColor+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
-		F033C8EFB89A90D6705B047D /* GeoJSONSourceExample.geojson */ = {isa = PBXFileReference; path = GeoJSONSourceExample.geojson; sourceTree = "<group>"; };
+		F033C8EFB89A90D6705B047D /* GeoJSONSourceExample.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = GeoJSONSourceExample.geojson; sourceTree = "<group>"; };
 		F0A6063E57EC170F558A3F74 /* ExampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
-		F0CE51977FA6E83B6F11BE5C /* Examples.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CE51977FA6E83B6F11BE5C /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F393DF039D7AD2F35C8DE4CE /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		F890746B56E20150A053B41B /* AnnotationsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationsExample.swift; sourceTree = "<group>"; };
-		FE2A263DD2E9DC52CEE356FA /* sf_airport_route.geojson */ = {isa = PBXFileReference; path = sf_airport_route.geojson; sourceTree = "<group>"; };
+		FE2A263DD2E9DC52CEE356FA /* sf_airport_route.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = sf_airport_route.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2CE02503AF44EBC86FE884 /* MapboxMaps in Frameworks */,
-				373BD1EE35B76E43534E23F6 /* Fingertips in Frameworks */,
+				625FFF502B89E22E00413FFB /* Fingertips in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +411,7 @@
 				D3C6CF222C8EE9AE69563E39 /* ViewAnnotationBasicExample.swift */,
 				1317C28ACDAC187017096A99 /* ViewAnnotationMarkerExample.swift */,
 				CB726A94B069761528B57EC8 /* ViewAnnotationWithPointAnnotationExample.swift */,
+				625FFF512B89FA0B00413FFB /* AnimatedAnnotationView.swift */,
 			);
 			path = Annotations;
 			sourceTree = "<group>";
@@ -618,7 +619,7 @@
 			name = Examples;
 			packageProductDependencies = (
 				0AF5F744C6369BF1FB233FB6 /* MapboxMaps */,
-				FD9311FF1C736B80A26F4258 /* Fingertips */,
+				625FFF4F2B89E22E00413FFB /* Fingertips */,
 			);
 			productName = Examples;
 			productReference = F0CE51977FA6E83B6F11BE5C /* Examples.app */;
@@ -671,7 +672,7 @@
 			);
 			mainGroup = AFDB1EA82615CFDF02CE1D4D;
 			packageReferences = (
-				B50D5CC28BF0DFBA55456D89 /* XCRemoteSwiftPackageReference "Fingertips" */,
+				625FFF4E2B89E22E00413FFB /* XCRemoteSwiftPackageReference "FingerTips" */,
 			);
 			projectDirPath = "";
 			projectRoot = "";
@@ -816,6 +817,7 @@
 				5A28C124249725578389175A /* ColorExpressionExample.swift in Sources */,
 				C664365A373267B564EC84EE /* CombineExample.swift in Sources */,
 				215230836B6AD1040D3DA547 /* CombineLocationExample.swift in Sources */,
+				625FFF522B89FA0B00413FFB /* AnimatedAnnotationView.swift in Sources */,
 				3E515D1DD1D9CA02F3E95AA2 /* Constants.swift in Sources */,
 				60A1572CCF5763FA3C946B89 /* Custom2DPuckExample.swift in Sources */,
 				6B040F65241ABF600D70D14D /* Custom3DPuckExample.swift in Sources */,
@@ -964,7 +966,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_GENERATE_MAP_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../lib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/../lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.MapboxTests;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -1072,7 +1079,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_GENERATE_MAP_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../lib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/../lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = mapbox.ExamplesUITests;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -1121,7 +1133,7 @@
 				INFOPLIST_FILE = Examples/Info.plist;
 				INFOPLIST_PREFIX_HEADER = "$(DERIVED_FILE_DIR)/InfoPlist.Prefix.h";
 				INFOPLIST_PREPROCESS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1233,7 +1245,7 @@
 				INFOPLIST_FILE = Examples/Info.plist;
 				INFOPLIST_PREFIX_HEADER = "$(DERIVED_FILE_DIR)/InfoPlist.Prefix.h";
 				INFOPLIST_PREPROCESS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1287,7 +1299,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_GENERATE_MAP_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../lib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/../lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.MapboxTests;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -1334,7 +1351,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_GENERATE_MAP_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../lib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(PROJECT_DIR)/../lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = mapbox.ExamplesUITests;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -1388,12 +1410,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B50D5CC28BF0DFBA55456D89 /* XCRemoteSwiftPackageReference "Fingertips" */ = {
+		625FFF4E2B89E22E00413FFB /* XCRemoteSwiftPackageReference "FingerTips" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:mapbox/Fingertips.git";
+			repositoryURL = "https://github.com/mapbox/FingerTips";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.6.0;
+				minimumVersion = 0.4.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -1403,9 +1425,9 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = MapboxMaps;
 		};
-		FD9311FF1C736B80A26F4258 /* Fingertips */ = {
+		625FFF4F2B89E22E00413FFB /* Fingertips */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B50D5CC28BF0DFBA55456D89 /* XCRemoteSwiftPackageReference "Fingertips" */;
+			package = 625FFF4E2B89E22E00413FFB /* XCRemoteSwiftPackageReference "FingerTips" */;
 			productName = Fingertips;
 		};
 /* End XCSwiftPackageProductDependency section */
